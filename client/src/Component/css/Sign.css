@@ -1,0 +1,55 @@
+.sign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title {
+  font-size: 4.5rem;
+  margin-top: 0;
+  color: #EC9CD3;
+}
+
+.s-inputgroup {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+  width: 30vw;
+}
+
+.s-inputlabel {
+  font-weight: bold;
+}
+
+.s-input {
+  height: 2rem;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.s-btn,
+.s-btnno {
+  width: 30vw;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
+  margin: 2rem 0;
+  background-color: #B1E693;
+}
+
+.s-btn:hover {
+  cursor: pointer;
+  background-color: #EC9CD3;
+  opacity: 50%;
+}
+
+.s-btnno {
+  display: flex;
+  justify-content: center;
+  background-color: #C4C4C4;
+}
